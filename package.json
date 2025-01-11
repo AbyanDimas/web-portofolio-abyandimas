@@ -1,5 +1,5 @@
 {
-  "name": "minimal-portfolio",
+  "name": "abyandimas-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,7 +24,7 @@
     "@types/node": "20.4.5",
     "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",
-    "@vercel/analytics": "^1.0.2",
+    "@vercel/analytics": "^1.4.1",
     "autoprefixer": "10.4.14",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "@types/nodemailer": "^6.4.9",
-    "prettier-plugin-organize-imports": "^4.1.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^4.1.0"
   }
 }
