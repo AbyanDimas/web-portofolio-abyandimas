@@ -57,7 +57,7 @@ export default async function IndexPage() {
             Abyan Dimas R Mussyafa
           </h1>
           <h3 className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl">
-            Junior Full Stack Developer
+            Orang Gabutzz
           </h3>
           {/* <Accordion
                         type="single"
