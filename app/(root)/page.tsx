@@ -11,6 +11,8 @@ import { pagesConfig } from "@/config/pages";
 import { featuredSkills } from "@/config/skills";
 import { cn } from "@/lib/utils";
 import abyandimasIMG from "@/public/abyandimas.jpg";
+import albumsData from "../api/album.json"; // Impor file JSON
+
 // import {
 //     Accordion,
 //     AccordionContent,
@@ -28,6 +30,8 @@ export const metadata: Metadata = {
   title: pagesConfig.home.metadata.title,
   description: pagesConfig.home.metadata.description,
 };
+
+const { albums } = albumsData; // Destrukturisasi data JSON
 
 export default async function IndexPage() {
   return (
@@ -197,6 +201,42 @@ export default async function IndexPage() {
                         See all the relevant skills.
                     </p>
                 </div> */}
+      </section>
+      <section
+        id="Album"
+        className="container space-y-6 bg-slate-50 dark:bg-transparent py-10 my-14"
+      >
+        <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+          <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+            Album Kenangan
+          </h2>
+          <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+            Kumpulan momen berharga dalam gambar dan video.
+          </p>
+        </div>
+        <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-center max-w-6xl px-4">
+          {albums.slice(0, 6).map(
+            (
+              album // Hanya menampilkan 6 album pertama
+            ) => (
+              <div key={album.id} className="flex flex-col items-center px-4">
+                <img
+                  src={album.imageUrl}
+                  alt={album.title}
+                  className="rounded-lg w-full max-w-[300px] h-auto"
+                />
+                <h3 className="mt-2 text-xl font-semibold">{album.title}</h3>
+                <p className="text-muted-foreground">{album.description}</p>
+              </div>
+            )
+          )}
+        </div>
+
+        <Link href="/album" className="flex justify-center">
+          <Button variant={"outline"} className="rounded-xl">
+            <Icons.chevronDown className="mr-2 h-4 w-4" /> View All
+          </Button>
+        </Link>
       </section>
     </>
   );

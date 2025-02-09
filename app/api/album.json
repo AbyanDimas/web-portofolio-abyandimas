@@ -1,0 +1,40 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "title": "Liburan ke Bali",
+      "description": "Momen indah selama liburan di Bali.",
+      "imageUrl": "https://www.theungasan.com/wp-content/uploads/2023/05/20190305-Bali-Interiors2019-03-05-188.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Wisata Kuliner",
+      "description": "Jelajahi kuliner khas Indonesia.",
+      "imageUrl": "https://www.theungasan.com/wp-content/uploads/2023/05/20190305-Bali-Interiors2019-03-05-188.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Petualangan di Gunung",
+      "description": "Mendaki gunung bersama teman-teman.",
+      "imageUrl": "https://www.theungasan.com/wp-content/uploads/2023/05/20190305-Bali-Interiors2019-03-05-188.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Petualangan di Gunung",
+      "description": "Mendaki gunung bersama teman-teman.",
+      "imageUrl": "https://www.theungasan.com/wp-content/uploads/2023/05/20190305-Bali-Interiors2019-03-05-188.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Petualangan di Gunung",
+      "description": "Mendaki gunung bersama teman-teman.",
+      "imageUrl": "https://www.theungasan.com/wp-content/uploads/2023/05/20190305-Bali-Interiors2019-03-05-188.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Petualangan di Gunung",
+      "description": "Mendaki gunung bersama teman-teman.",
+      "imageUrl": "https://www.theungasan.com/wp-content/uploads/2023/05/20190305-Bali-Interiors2019-03-05-188.jpg"
+    }
+  ]
+}
