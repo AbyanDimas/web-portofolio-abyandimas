@@ -4,7 +4,7 @@ export const siteConfig = {
   username: "abyandimas",
   description:
     "Abyan Dimas adalah seorang Full Stack Developer yang senang membangun aplikasi web dan memiliki semangat untuk mempelajari teknologi baru.",
-  url: "https://abyandimas.xyz",
+  url: "https://abyandimas.vercel.app",
   links: {
     twitter: "https://x.com/abyandimas",
     github: "https://github.com/AbyanDimas",

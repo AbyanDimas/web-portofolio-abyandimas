@@ -7,25 +7,25 @@ export interface contributionsInterface {
 
 export const contributionsUnsorted: contributionsInterface[] = [
   {
-    repo: "My-Project",
+    repo: "adbcreative",
     contibutionDescription:
-      "Membangun fitur untuk sistem navigasi yang dinamis dan responsif menggunakan React Router.",
-    repoOwner: "Abyan Dimas",
-    link: "https://github.com/AbyanDimas/My-Project",
+      "Berkontribusi dalam pengembangan website ADB Creative, termasuk desain UI yang modern dan pengalaman pengguna yang responsif.",
+    repoOwner: "ADB Creative",
+    link: "https://github.com/web-adb/adbcreative",
   },
   {
-    repo: "attendance-system",
+    repo: "Front-End_Web-SMKN-1-ADW",
     contibutionDescription:
-      "Mengembangkan sistem kehadiran otomatis yang terintegrasi dengan Google Sheets dan menyoroti status siswa.",
-    repoOwner: "Abyan Dimas",
-    link: "https://github.com/AbyanDimas/attendance-system",
+      "Membangun dan mengoptimalkan frontend website SMK 1 Adiwerna menggunakan React dan Tailwind CSS.",
+    repoOwner: "SMKN 1 Adiwerna",
+    link: "https://github.com/SMKN1ADIWERNA/Front-End_Web-SMKN-1-ADW",
   },
   {
-    repo: "osis-management",
+    repo: "LMS-smkn1adw",
     contibutionDescription:
-      "Merancang dan membangun aplikasi CRUD untuk pengelolaan data OSIS.",
-    repoOwner: "Abyan Dimas",
-    link: "https://github.com/AbyanDimas/osis-management",
+      "Mengembangkan sistem Learning Management System (LMS) untuk SMK 1 Adiwerna dengan fitur yang memudahkan pembelajaran daring.",
+    repoOwner: "SMKN 1 Adiwerna",
+    link: "https://github.com/web-adb/LMS-smkn1adw",
   },
 ];
 

@@ -106,6 +106,27 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 2,
     icon: Icons.mysql,
   },
+  {
+    name: "Cloud Computing",
+    description:
+      "Menggunakan layanan cloud seperti VPS dan deployment aplikasi berbasis cloud.",
+    rating: 4,
+    icon: Icons.cloud,
+  },
+  {
+    name: "Red Hat Linux",
+    description:
+      "Mengelola sistem operasi berbasis Linux untuk pengelolaan server dan pengembangan aplikasi.",
+    rating: 4,
+    icon: Icons.linux,
+  },
+  {
+    name: "Git & GitHub",
+    description:
+      "Mengelola versi kode dengan Git serta berkolaborasi melalui GitHub.",
+    rating: 5,
+    icon: Icons.github,
+  },
 ];
 
 

@@ -30,6 +30,7 @@ import {
 import { AiFillStar } from "react-icons/ai";
 import { BiLaugh, BiSolidUser } from "react-icons/bi";
 import { BsInfoCircle, BsQuestionCircle } from "react-icons/bs";
+import { FaWhatsapp, FaInstagram, FaGithub, FaAws, FaLinux, FaCloud } from "react-icons/fa";
 import {
   HiBriefcase,
   HiOutlineExternalLink,
@@ -121,6 +122,12 @@ export const Icons = {
   linkedin: SiLinkedin,
   userFill: BiSolidUser,
   work: HiBriefcase,
+  whatsapp: FaWhatsapp,
+  instagram: FaInstagram,
+  linux: FaLinux,
+  github: FaGithub,
+  aws : FaAws,
+  cloud: FaCloud,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"

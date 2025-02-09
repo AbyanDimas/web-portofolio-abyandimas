@@ -1,15 +1,12 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { Analytics } from "@vercel/analytics/react"
 
 import { Icons } from "@/components/common/icons";
 import ContributionCard from "@/components/contributions/contribution-card";
-import ProjectCard from "@/components/experience/project-card";
 import SkillsCard from "@/components/skills/skills-card";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { featuredContributions } from "@/config/contributions";
-import { featuredExperiences } from "@/config/experience";
 import { pagesConfig } from "@/config/pages";
 import { featuredSkills } from "@/config/skills";
 import { cn } from "@/lib/utils";
@@ -47,12 +44,12 @@ export default async function IndexPage() {
           {/* <div className="max-w-[16rem]"> */}
           <Image
             src={abyandimasIMG}
-            height={100}
-            width={100}
-            sizes="100vw"
-            className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-8 border-primary dark:border-white dark:bg-white"
+            width={250}
+            height={250}
+            className="rounded-full object-cover aspect-square border-8 border-primary dark:border-white"
             alt="Abyan Dimas R Mussyafa"
           />
+
           {/* </div> */}
           <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
             Abyan Dimas R Mussyafa
@@ -105,7 +102,7 @@ export default async function IndexPage() {
               target="_blank"
               className={cn(buttonVariants({ size: "lg" }))}
             >
-              <Icons.gitHub className="w-4 h-4 mr-2" /> GitHub
+              <Icons.instagram className="w-4 h-4 mr-2" /> Instagram
             </Link>
             <Link
               href={"/contact"}
@@ -117,7 +114,7 @@ export default async function IndexPage() {
                 })
               )}
             >
-              <Icons.contact className="w-4 h-4 mr-2" /> Contact
+              <Icons.whatsapp className="w-4 h-4 mr-2" /> Whatsapp
             </Link>
           </div>
           <Icons.chevronDown className="h-6 w-6 mt-10" />
@@ -169,7 +166,7 @@ export default async function IndexPage() {
             <Icons.chevronDown className="mr-2 h-4 w-4" /> View All
           </Button>
         </Link> */}
-        {/* <div className="mx-auto text-center md:max-w-[58rem]">
+      {/* <div className="mx-auto text-center md:max-w-[58rem]">
                     <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
                         See all the relevant experiences.
                     </p>
